@@ -1,4 +1,4 @@
-# NSG
+# NSG Tinkering With Wireshark and Other Tools
 This is a brief writeup on setting observing traffic.
 
 Connect into DC-1 as your domain admin account (mydomain.com\justin_admin) Connect/log into Client-1 as an admin (mydomain\justin_admin). From Client-1,  ping “mainframe” and notice that it fails Nslookup “mainframe”, also notice that it fails (no DNS record). Now Create a DNS A-record on DC-1 for “mainframe” and point to DC-1’s Private IP address, and then go back to Client-1 and then ping it. Check to see if that works.
